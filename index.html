@@ -34,9 +34,10 @@
         <div class="hero-section-heading">Hi!! Arpit Agari</div>
         <div class="hero-section-subheading hero-section-heading">I am a <span class="role"></span></div>
         <div class="hero-section-description">I'm a software developer and here is my portfolio website .Here you'll learn about my journey as a software developer.</div>
-        <div class="btn-pink" id="button">Hire me</div>
-        <div class="btn-pink" id="button1">Download Resume</div>
-    </div>
+        <div class="btn-pink" id="button" onclick="location.href='#contact';">Hire me</div>
+        <button class="btn-pink" id="button1" onclick="openResume()">Download Resume</button>
+
+        </div>
 
     <div class="hero-section-right">
        
@@ -351,6 +352,14 @@
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
     <script>
+     
+    
+            function openResume() {
+                window.open('resume_latest.pdf', '_blank');
+            }
+       
+
+
         var typedata=new Typed(".role",{
             strings:[
                 "Full Stack Developer!",
