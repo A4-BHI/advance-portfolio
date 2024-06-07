@@ -85,11 +85,17 @@ a{
 
 }
 .hero-section-left{
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap:2rem
 
+}
+#button1{
+    position: absolute;
+    bottom: -1%;
+    left: 24%;
 }
 
 .hero-section-heading{
